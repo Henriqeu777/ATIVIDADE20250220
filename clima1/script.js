@@ -8,7 +8,7 @@ function getWeatherByCity() {
         alert("Por favor, insira o nome de uma cidade.");
         return;
     }
-    const urlClima = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt_br&appid=${AweatherApiKey}`;
+    const urlClima = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt_br&appid=${weatherApiKey}`;
 
     // Chamada para OpenWeatherMap (obter latitude e longitude)
     fetch(urlClima)
